@@ -1,0 +1,4710 @@
+
+body {
+  background-color: #4CAF50;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  padding: 20px 50px;
+}
+
+.logoimg {
+  font-size: 24px;
+  color: white;
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+img {
+  width: 10%;
+}
+
+section {
+  color: #aa1313;
+  background: beige;
+}
+
+.productos-container {
+  display: ruby;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* Centra las cartas horizontalmente */
+}
+
+/* SECCION PIZZAS CARTAS */
+
+
+/*FILA 1 SECCION EMPANADAS CARTAS */
+.pizzafugazza {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzafugazza:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.pizzafugazza img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzafugazza button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzapisalsa {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzapisalsa:hover{
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.pizzapisalsa img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzapisalsa button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzamuzza {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzamuzza:hover{
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.pizzamuzza img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzamuzza button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*FILA 2 SECCION EMPANADAS CARTAS */
+
+.pizzafugazzeta {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+.pizzafugazzeta:hover{
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+  
+}
+
+
+.pizzafugazzeta img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzafugazzeta button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzajamon {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzajamon:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.pizzajamon img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzajamon button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+.pizzanapolitana {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzanapolitana:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.pizzanapolitana img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzanapolitana button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*FILA 3 SECCION EMPANADAS CARTAS */
+
+.pizzacalabresa {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzacalabresa:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.pizzacalabresa img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzacalabresa button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzahuevo {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzahuevo:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.pizzahuevo img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzahuevo button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzacaprese {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzacaprese:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.pizzacaprese img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzacaprese button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*FILA 4 SECCION EMPANADAS CARTAS */
+
+.pizzafugazzetacjamon {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzafugazzetacjamon:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.pizzafugazzetacjamon img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzafugazzetacjamon button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzafugazzetachuevo {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzafugazzetachuevo:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.pizzafugazzetachuevo img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzafugazzetachuevo button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzanapocmorron {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzanapocmorron:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.pizzanapocmorron img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzanapocmorron button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*FILA 5 SECCION EMPANADAS CARTAS */
+.pizzanapocjamon {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzanapocjamon:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.pizzanapocjamon img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzanapocjamon button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzanapoccalabresa {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzanapoccalabresa:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.pizzanapoccalabresa img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzanapoccalabresa button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzajamonymorron {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzajamonymorron:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.pizzajamonymorron img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzajamonymorron button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*FILA 6 SECCION EMPANADAS CARTAS */
+.pizzajamonyhuevo {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzajamonyhuevo:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.pizzajamonyhuevo img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzajamonyhuevo button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzaprimavera {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzaprimavera:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.pizzaprimavera img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzaprimavera button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzajmh {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzajmh:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.pizzajmh img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzajmh button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*FILA 7 SECCION EMPANADAS CARTAS */
+.pizzafugazzecjyh {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzafugazzecjyh:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.pizzafugazzecjyh img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzafugazzecjyh button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzasupermia {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzasupermia:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.pizzasupermia img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzasupermia button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzahumita {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzahumita:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.pizzahumita img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzahumita button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*FILA 8 SECCION EMPANADAS CARTAS */
+.pizzaverdura {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzaverdura:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.pizzaverdura img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzaverdura button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzaroquefort {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzaroquefort:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.pizzaroquefort img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzaroquefort button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzapalmitos {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzapalmitos:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.pizzapalmitos img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzapalmitos button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*FILA 9 SECCION EMPANADAS CARTAS */
+
+.pizzachampignion {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzachampignion:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.pizzachampignion img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzachampignion button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzachampignioncjamon {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzachampignioncjamon:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.pizzachampignioncjamon img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzachampignioncjamon button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzapalmitocjamon {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzapalmitocjamon:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.pizzapalmitocjamon img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzapalmitocjamon button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*FILA 10 SECCION EMPANADAS CARTAS */
+.pizzapalmitocnapoyjamon {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzapalmitocnapoyjamon:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.pizzapalmitocnapoyjamon img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzapalmitocnapoyjamon button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzaroquefortcjamon {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzaroquefortcjamon:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.pizzaroquefortcjamon img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzaroquefortcjamon button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzaroquefortcjamonynapo {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzaroquefortcjamonynapo:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.pizzaroquefortcjamonynapo img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzaroquefortcjamonynapo button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+/* SECCION EMPANADAS CARTAS */
+
+.empanadacarne {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.empanadacarne:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.empanadacarne img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.empanadacarne button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.empanadapollo {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.empanadapollo:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.empanadapollo img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.empanadapollo button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.empanadajyq {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.empanadajyq:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.empanadajyq img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.empanadajyq button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.empanadaverdura {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.empanadaverdura:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.empanadaverdura img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.empanadaverdura button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.empanadahumita {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.empanadahumita:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.empanadahumita img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.empanadahumita button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.empanadacyq {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.empanadacyq:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.empanadacyq img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.empanadacyq button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.tituloprinc {
+  align-items: center;
+  display: flex;
+  color: #000000;
+  justify-content: center;
+  text-align: center;
+
+}
+
+/* SECCION BEBIDAS */
+
+.agua {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.agua:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.agua img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.agua button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+.latasprite {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.latasprite:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.latasprite img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.latasprite button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+.latapepsi {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.latapepsi:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.latapepsi img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.latapepsi button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+.placermanzana {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.placermanzana:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.placermanzana img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.placermanzana button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.placerpomelo {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.placerpomelo:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.placerpomelo img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.placerpomelo button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.manaoscola {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.manaoscola:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.manaoscola img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.manaoscola button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* SECCION Sandwich */
+
+.sandwichprimavera {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.sandwichprimavera:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.sandwichprimavera img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.sandwichprimavera button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.sandwichsimplecfritaind {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.sandwichsimplecfritaind:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.sandwichsimplecfritaind img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.sandwichsimplecfritaind button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.sandwichsimplecfritacom {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.sandwichsimplecfritacom:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.sandwichsimplecfritacom img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.sandwichsimplecfritacom button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.sandwichcompletocfrita {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.sandwichcompletocfrita:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.sandwichcompletocfrita img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.sandwichcompletocfrita button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.fritasporcion {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.fritasporcion:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.fritasporcion img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.fritasporcion button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.fritascjchyv {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.fritascjchyv:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.fritascjchyv img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.fritascjchyv button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.milacfrita {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.milacfrita:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.milacfrita img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.milacfrita button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.milanapocfrita {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.milanapocfrita:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.milanapocfrita img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.milanapocfrita button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.milacfritajchyv {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.milacfritajchyv:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.milacfritajchyv img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.milacfritajchyv button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.milanapocfritajchyv {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.milanapocfritajchyv:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.milanapocfritajchyv img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.milanapocfritajchyv button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.milafugazeta {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.milafugazeta:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.milafugazeta img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.milafugazeta button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*Seccion Pizzas Individuales*/
+
+/* SECCION PIZZAS CARTAS */
+
+
+/*FILA 1 SECCION EMPANADAS CARTAS */
+.pizzafugazzaind {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzafugazzaind:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.pizzafugazzaind img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzafugazzaind button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzapisalsaind {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzapisalsaind:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.pizzapisalsaind img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzapisalsaind button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzamuzzaind {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzamuzzaind:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.pizzamuzzaind img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzamuzzaind button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*FILA 2 SECCION EMPANADAS CARTAS */
+
+.pizzafugazzetaind {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzafugazzetaind:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.pizzafugazzetaind img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzafugazzetaind button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzajamonind {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzajamonind:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.pizzajamonind img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzajamonind button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+.pizzanapolitanaind {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzanapolitanaind:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.pizzanapolitanaind img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzanapolitanaind button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*FILA 3 SECCION EMPANADAS CARTAS */
+
+.pizzacalabresaind {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzacalabresaind:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.pizzacalabresaind img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzacalabresaind button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzahuevoind {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzahuevoind:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.pizzahuevoind img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzahuevoind button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzacapreseind {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzacapreseind:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.pizzacapreseind img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzacapreseind button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*FILA 4 SECCION EMPANADAS CARTAS */
+
+.pizzafugazzetacjamonind {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzafugazzetacjamonind:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.pizzafugazzetacjamonind img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzafugazzetacjamonind button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzafugazzetachuevoind {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzafugazzetachuevoind:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.pizzafugazzetachuevoind img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzafugazzetachuevoind button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzanapocmorronind {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzanapocmorronind:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.pizzanapocmorronind img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzanapocmorronind button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*FILA 5 SECCION EMPANADAS CARTAS */
+.pizzanapocjamonind {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzanapocjamonind:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+
+.pizzanapocjamonind img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzanapocjamonind button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzanapoccalabresaind {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzanapoccalabresaind:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.pizzanapoccalabresaind img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzanapoccalabresaind button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzajamonymorronind {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzajamonymorronind:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.pizzajamonymorronind img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzajamonymorronind button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*FILA 6 SECCION EMPANADAS CARTAS */
+.pizzajamonyhuevoind {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzajamonyhuevoind:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.pizzajamonyhuevoind img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzajamonyhuevoind button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzaprimaveraind {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzaprimaveraind:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.pizzaprimaveraind img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzaprimaveraind button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzajmhind {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzajmhind:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.pizzajmhind img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzajmhind button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*FILA 7 SECCION EMPANADAS CARTAS */
+.pizzafugazzecjyhind {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzafugazzecjyhind:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.pizzafugazzecjyhind img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzafugazzecjyhind button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzasupermiaind {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzasupermiaind:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.pizzasupermiaind img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzasupermiaind button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzahumitaind {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzahumitaind:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.pizzahumitaind img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzahumitaind button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*FILA 8 SECCION EMPANADAS CARTAS */
+.pizzaverduraind {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzaverduraind:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.pizzaverduraind img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzaverduraind button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzaroquefortind {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzaroquefortind:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.pizzaroquefortind img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzaroquefortind button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzapalmitosind {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzapalmitosind:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.pizzapalmitosind img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzapalmitosind button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*FILA 9 SECCION EMPANADAS CARTAS */
+
+.pizzachampignionind {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzachampignionind:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.pizzachampignionind img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzachampignionind button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzachampignioncjamonind {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzachampignioncjamonind:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.pizzachampignioncjamonind img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzachampignioncjamonind button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzapalmitocjamonind {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzapalmitocjamonind:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.pizzapalmitocjamonind img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzapalmitocjamonind button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*FILA 10 SECCION EMPANADAS CARTAS */
+.pizzapalmitocnapoyjamonind {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzapalmitocnapoyjamonind:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.pizzapalmitocnapoyjamonind img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzapalmitocnapoyjamonind button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzaroquefortcjamonind {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzaroquefortcjamonind:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.pizzaroquefortcjamonind img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzaroquefortcjamonind button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pizzaroquefortcjamonynapoind {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pizzaroquefortcjamonynapoind:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.pizzaroquefortcjamonynapoind img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.pizzaroquefortcjamonynapoind button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/*SECCION PROMOCIONES */
+
+.promo1 {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.promo1:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.promo1 img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.promo1 button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.promo2 {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.promo2:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.promo2 img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.promo2 button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.promo3 {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.promo3:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.promo3 img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.promo3 button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.promo4 {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.promo4:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.promo4 img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.promo4 button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.promo5 {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.promo5:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.promo5 img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.promo5 button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.promo6 {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 20%;
+  /* Ajusta el ancho según tu diseño */
+  text-align: center;
+  border: 1px solid #ddd; /* Agrega un borde gris claro */
+  border-radius: 5px; /* Redondea las esquinas */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Transición al transformar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.promo6:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+.promo6 img {
+  width: 100%;
+  /* La imagen ocupará todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajustará automáticamente */
+}
+
+.promo6 button {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+/* ... (rest of the CSS remains the same) */
+
+/* Mobile-friendly adjustments */
+
+@media (max-width: 768px) {
+  /* Adjust the width of the product cards to 50% on smaller screens */
+  h1 {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 14px;
+  }
+  p {
+    font-size: 12px;
+  }
+
+  img {
+    width: 45%;
+    height: auto;
+  }
+
+  footer {
+    display: block;
+    justify-content: space-between;
+     align-items: center;
+    background-color: #000000;
+    padding: 20px 50px;
+  }
+
+  .promo1{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .promo1:hover{
+    background-color: #000000;
+  }
+  
+  .promo2{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .promo2:hover{
+    background-color: #000000;
+  }
+
+  .promo3{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .promo3:hover{
+    background-color: #000000;
+  }
+
+  .promo4{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .promo4:hover{
+    background-color: #000000;
+  }
+
+  .promo5{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .promo5:hover{
+    background-color: #000000;
+  }
+
+  .empanadacarne{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .empanadacarne:hover{
+    background-color: #000000;
+  }
+
+  .empanadacyq{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .empanadacyq:hover{
+    background-color: #000000;
+  }
+
+  .empanadahumita{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .empanadahumita:hover{
+    background-color: #000000;
+  }
+
+  .empanadajyq{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .empanadajyq:hover{
+    background-color: #000000;
+  }
+
+  .empanadapollo{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .empanadapollo:hover{
+    background-color: #000000;
+  }
+
+  .empanadaverdura{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .empanadaverdura:hover{
+    background-color: #000000;
+  }
+
+  .sandwichprimavera{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .sandwichprimavera:hover{
+    background-color: #000000;
+  }
+
+  .sandwichcompletocfrita{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .sandwichcompletocfrita:hover{
+    background-color: #000000;
+  }
+
+  .sandwichsimplecfritacom{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .sandwichsimplecfritacom:hover{
+    background-color: #000000;
+  }
+
+  .sandwichsimplecfritaind{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .sandwichsimplecfritaind:hover{
+    background-color: #000000;
+  }
+
+  .fritasporcion{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .fritasporcion:hover{
+    background-color: #000000;
+  }
+
+  .fritascjchyv{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .fritascjchyv:hover{
+    background-color: #000000;
+  }
+
+  .milacfrita{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .milacfrita:hover{
+    background-color: #000000;
+  }
+
+  .milacfritajchyv{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .milacfritajchyv:hover{
+    background-color: #000000;
+  }
+
+  .milafugazeta{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .milafugazeta:hover{
+    background-color: #000000;
+  }
+
+  .milanapocfrita{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .milanapocfrita:hover{
+    background-color: #000000;
+  }
+
+  .milanapocfritajchyv{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .milanapocfritajchyv:hover{
+    background-color: #000000;
+  }
+
+  .agua{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .agua:hover{
+    background-color: #000000;
+  }
+
+  .latapepsi{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .latapepsi:hover{
+    background-color: #000000;
+  }
+
+  .latasprite{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .latasprite:hover{
+    background-color: #000000;
+  }
+
+  .placermanzana{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .placermanzana:hover{
+    background-color: #000000;
+  }
+
+  .placerpomelo{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .placerpomelo:hover{
+    background-color: #000000;
+  }
+
+  .manaoscola{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .manaoscola:hover{
+    background-color: #000000;
+  }
+
+  .pizzacalabresa{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzacalabresa:hover{
+    background-color: #000000;
+  }
+
+  .pizzacalabresaind{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzacalabresaind:hover{
+    background-color: #000000;
+  }
+
+  .pizzacaprese{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzacaprese:hover{
+    background-color: #000000;
+  }
+
+  .pizzacapreseind{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzacapreseind:hover{
+    background-color: #000000;
+  }
+
+  .pizzachampignion{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzachampignion:hover{
+    background-color: #000000;
+  }
+
+  .pizzachampignioncjamon{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzachampignioncjamon:hover{
+    background-color: #000000;
+  }
+
+  .pizzachampignioncjamonind{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzachampignioncjamonind:hover{
+    background-color: #000000;
+  }
+
+  .pizzachampignionind{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzachampignionind:hover{
+    background-color: #000000;
+  }
+
+  .pizzafugazza{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzafugazza:hover{
+    background-color: #000000;
+  }
+
+  .pizzafugazzaind{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzafugazzaind:hover{
+    background-color: #000000;
+  }
+
+  .pizzafugazzecjyh{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzafugazzecjyh:hover{
+    background-color: #000000;
+  }
+
+  .pizzafugazzecjyhind{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzafugazzecjyhind:hover{
+    background-color: #000000;
+  }
+
+  .pizzafugazzeta{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzafugazzeta:hover{
+    background-color: #000000;
+  }
+
+  .pizzafugazzetachuevo{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzafugazzetachuevo:hover{
+    background-color: #000000;
+  }
+
+  .pizzafugazzetachuevoind{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzafugazzetachuevoind:hover{
+    background-color: #000000;
+  }
+
+  .pizzafugazzetacjamon{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzafugazzetacjamon:hover{
+    background-color: #000000;
+  }
+
+  .pizzafugazzetacjamonind{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzafugazzetacjamonind:hover{
+    background-color: #000000;
+  }
+
+  .pizzafugazzetaind{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzafugazzetaind:hover{
+    background-color: #000000;
+  }
+
+  .pizzahuevo{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzahuevo:hover{
+    background-color: #000000;
+  }
+
+  .pizzahuevoind{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzahuevoind:hover{
+    background-color: #000000;
+  }
+  
+  .pizzahumita{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzahumita:hover{
+    background-color: #000000;
+  }
+
+  .pizzahumitaind{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzahumitaind:hover{
+    background-color: #000000;
+  }
+
+  .pizzajamon{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzajamon:hover{
+    background-color: #000000;
+  }
+
+  .pizzajamonind{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzajamonind:hover{
+    background-color: #000000;
+  }
+  
+  .pizzajamonyhuevo{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzajamonyhuevo:hover{
+    background-color: #000000;
+  }
+
+  .pizzajamonyhuevoind{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzajamonyhuevoind:hover{
+    background-color: #000000;
+  }
+
+  .pizzajamonymorron{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzajamonymorron:hover{
+    background-color: #000000;
+  }
+
+  .pizzajamonymorronind{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzajamonymorronind:hover{
+    background-color: #000000;
+  }
+
+  .pizzajmh{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzajmh:hover{
+    background-color: #000000;
+  }
+
+  .pizzajmhind{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzajmhind:hover{
+    background-color: #000000;
+  }
+
+  .pizzamuzza{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzamuzza:hover{
+    background-color: #000000;
+  }
+
+  .pizzamuzzaind{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzamuzzaind:hover{
+    background-color: #000000;
+  }
+
+  .pizzanapoccalabresa{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzanapoccalabresa:hover{
+    background-color: #000000;
+  }
+
+  .pizzanapoccalabresaind{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzanapoccalabresaind:hover{
+    background-color: #000000;
+  }
+
+  .pizzanapocjamon{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzanapocjamon:hover{
+    background-color: #000000;
+  }
+
+  .pizzanapocjamonind{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzanapocjamonind:hover{
+    background-color: #000000;
+  }
+
+  .pizzanapocmorron{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzanapocmorron:hover{
+    background-color: #000000;
+  }
+
+  .pizzanapocmorronind{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzanapocmorronind:hover{
+    background-color: #000000;
+  }
+
+  .pizzanapolitana{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzanapolitana:hover{
+    background-color: #000000;
+  }
+
+  .pizzanapolitanaind{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzanapolitanaind:hover{
+    background-color: #000000;
+  }
+
+  .pizzapalmitocjamon{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzapalmitocjamon:hover{
+    background-color: #000000;
+  }
+
+  .pizzapalmitocjamonind{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzapalmitocjamonind:hover{
+    background-color: #000000;
+  }
+
+  .pizzapalmitocnapoyjamon{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzapalmitocnapoyjamon:hover{
+    background-color: #000000;
+  }
+
+  .pizzapalmitocnapoyjamonind{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzapalmitocnapoyjamonind:hover{
+    background-color: #000000;
+  }
+
+  .pizzapalmitos{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzapalmitos:hover{
+    background-color: #000000;
+  }
+
+  .pizzapalmitosind{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzapalmitosind:hover{
+    background-color: #000000;
+  }
+
+  .pizzapisalsa{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzapisalsa:hover{
+    background-color: #000000;
+  }
+
+  .pizzapisalsaind{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzapisalsaind:hover{
+    background-color: #000000;
+  }
+
+  .pizzaprimavera{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzaprimavera:hover{
+    background-color: #000000;
+  }
+
+  .pizzaprimaveraind{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzaprimaveraind:hover{
+    background-color: #000000;
+  }
+
+  .pizzaroquefort{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzaroquefort:hover{
+    background-color: #000000;
+  }
+
+  .pizzaroquefortind{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzaroquefortind:hover{
+    background-color: #000000;
+  }
+
+  .pizzaroquefortcjamon{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzaroquefortcjamon:hover{
+    background-color: #000000;
+  }
+
+  .pizzaroquefortcjamonind{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzaroquefortcjamonind:hover{
+    background-color: #000000;
+  }
+
+  .pizzaroquefortcjamonynapo{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzaroquefortcjamonynapo:hover{
+    background-color: #000000;
+  }
+
+  .pizzaroquefortcjamonynapoind{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzaroquefortcjamonynapoind:hover{
+    background-color: #000000;
+  }
+
+  .pizzasupermia{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzasupermia:hover{
+    background-color: #000000;
+  }
+
+  .pizzasupermiaind{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzasupermiaind:hover{
+    background-color: #000000;
+  }
+
+  .pizzaverdura{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzaverdura:hover{
+    background-color: #000000;
+  }
+
+  .pizzaverduraind{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .pizzaverduraind:hover{
+    background-color: #000000;
+  }
+
+  .promo6{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .promo6:hover{
+    background-color: #000000;
+ 
+  }
+
+
+
+  /* Simplify navigation for mobile devices */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  nav ul li {
+    margin-bottom: 10px;
+  }
+  
+  nav ul li a {
+    font-size: 14px;
+  }
+
+  .producto {
+    width: 50%;
+  }
+
+  .productos-container{
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Adjust the width of the product cards to 100% on very small screens */
+  h1 {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 14px;
+  }
+  p {
+    font-size: 12px;
+  }
+
+  img {
+    width: 45%;
+    height: auto;
+  }
+
+  footer {
+    display: block;
+    justify-content: space-between;
+     align-items: center;
+    background-color: #000000;
+    padding: 20px 50px;
+  }
+  
+  /* Simplify navigation for mobile devices */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  nav ul li {
+    margin-bottom: 10px;
+  }
+  
+  nav ul li a {
+    font-size: 14px;
+  }
+  
+  .producto {
+    width: 100%;
+  }
+  
+  /* Adjust the padding and margin of the product cards on very small screens */
+  .producto {
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  /* Adjust the font size of the product card titles on very small screens */
+  .producto h2 {
+    font-size: 18px;
+  }
+  
+  /* Adjust the font size of the product card descriptions on very small screens */
+  .producto p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 320px) {
+  /* Adjust the width of the product cards to 100% on extremely small screens */
+  h1 {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 14px;
+  }
+  p {
+    font-size: 12px;
+  }
+
+  img {
+    width: 45%;
+    height: auto;
+  }
+
+  footer {
+    display: block;
+    justify-content: space-between;
+     align-items: center;
+    background-color: #000000;
+    padding: 20px 50px;
+  }
+  
+  /* Simplify navigation for mobile devices */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  nav ul li {
+    margin-bottom: 10px;
+  }
+  
+  nav ul li a {
+    font-size: 14px;
+  }
+  
+  .producto {
+    width: 100%;
+  }
+  
+  /* Adjust the padding and margin of the product cards on extremely small screens */
+  .producto {
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  /* Adjust the font size of the product card titles on extremely small screens */
+  .producto h2 {
+    font-size: 16px;
+  }
+  
+  /* Adjust the font size of the product card descriptions on extremely small screens */
+  .producto p {
+    font-size: 12px;
+  }
+}

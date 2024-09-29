@@ -1,0 +1,17 @@
+{
+  "name": "proyecto-pizza-mia",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@mercadopago/sdk-react": "^0.0.19",
+    "express": "^4.21.0",
+    "gsap": "^3.12.5"
+  }
+}
